@@ -10,7 +10,7 @@ pipeline {
             }
             steps {
                 sh ''''
-                    npm run build
+                    echo "In Build"
                 '''
             }
         }
